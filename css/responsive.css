@@ -1,0 +1,77 @@
+@media (max-width: 740px) {
+    #header{
+        overflow: hidden;
+    }
+    .nav-bar{
+        display: block;
+    }
+    .nav-bar>li:first-child{
+        display: inline-block;
+    }
+    .nav-bar>li{
+        display: block;
+    }
+    .nav-bar .nav-more{
+        position: initial;
+        width: 800px;
+        max-width: 100%;
+    }
+    .nav-more li a{
+        display: block;
+    }
+    
+    .search .button-search{
+        display: none;
+    }
+    .menu .button-menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .menu .button-menu:hover{
+        background-color: #aaa;
+        color: #000;
+    }
+
+    .member-list{
+        display: block !important;
+    }
+    .place-list{
+        display: block;
+    }
+    .place-item{
+        width: 800px;
+        max-width: 100%;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .btn-buy-Ticket{
+        display: block;
+        width: 100%;
+        line-height: 30px;
+    }
+
+    .contact-content{
+        display: block;
+    }
+    .infomation-contact,
+    .send-messenger{
+        width: 800px;
+        max-width: 100%;
+    }
+    .info-user{
+        display: block;
+    }
+    .info-user input{
+        margin-top: 8px;
+        width: 800px;
+        max-width: 100%;
+    }
+    .send-messenger .btn-send{
+        float: initial;
+        width: 800px;
+        max-width: 100%;
+        line-height: 40px;
+    }
+}
